@@ -1,0 +1,28 @@
+programa
+{
+	inclua biblioteca Matematica 
+	
+	funcao inicio()
+	{
+		inteiro a, b, c, delta, x1, x2
+
+		escreva("Informe o valor de a: ")
+		leia(a)
+
+		escreva("Informe o valor de b: ")
+		leia(b)
+
+		escreva("Informe o valor de c: ")
+		leia(c)
+	
+	delta = b * b - 4 * a *c
+
+	escreva("O valor de a é: ", a, "\n")
+	escreva("O valor de b é: ", b, "\n")
+	escreva("O valor de c é: ", c, "\n")
+	escreva("O valor de delta é: ", delta, "\n")
+	escreva("O valor de x1 é: ", x1 = -b + Matematica.raiz(delta, 2) / 2 * a, "\n")
+	escreva("O valor de x2 é: ", x2 = -b - Matematica.raiz(delta, 2) / 2 * a, "\n")
+
+	}
+}
