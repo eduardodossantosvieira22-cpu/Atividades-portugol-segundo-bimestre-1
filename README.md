@@ -1,1 +1,0 @@
-# Atividades-portugol-segundo-bimestre-1
